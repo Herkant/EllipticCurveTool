@@ -14,14 +14,14 @@ NumPy: библиотека для численных вычислений. В �
 Вычисление функции j: функция j эллиптической кривой описывает её автоморфные свойства.
 ///////////////////////////////////////////////////
 
-1. Program Structure
+1 Program Structure
 This program implements the normalization of elliptic curves and calculates mathematical parameters related to the elliptic curve, such as group structure, j-function, invariants, and others.
 It visualizes these characteristics through graphical representation and symbolic computation, also performing calculations such as point order and describing the curve's algebraic properties.
-2. Libraries Used
+2 Libraries Used
 SymPy: A Python library for symbolic mathematics and algebra. It is used for symbolic equation solving and performing algebraic operations.
 Matplotlib: A library for creating graphs and visualizing data. It is used to plot elliptic curve graphs.
 NumPy: A library for numerical computations. It is mainly used for working with arrays and matrices.
-3. Program Features
+3 Program Features
 Normalization of Elliptic Curve: Converts the elliptic curve equation into standard form.
 Group Structure Calculation: Provides the order of the group of points on the elliptic curve.
 j-function Calculation: The j-function of the elliptic curve describes its automorphic properties.
@@ -33,11 +33,11 @@ Elliptic curves are a class of algebraic curves that are important in mathematic
 
 Introduction to Elliptic Curves
 An elliptic curve is defined by the equation:
-
 y^2 = x^3 + ax + b
-where a and b are constants, and x and y are variables. To ensure the curve has no singular points, the parameters a and b must satisfy the condition:
 
+where a and b are constants, and x and y are variables. To ensure the curve has no singular points, the parameters a and b must satisfy the condition:
 4a^3 + 27b^2 != 0
+
 Basic Properties of Elliptic Curves
 Group Structure: The points on an elliptic curve form an additive group, meaning that the operation of point addition is defined. Given two points P and Q, their sum P + Q can be computed.
 
@@ -67,8 +67,10 @@ j, а также ее производные.
 Введение в эллиптические кривые
 Эллиптическая кривая определяется уравнением:
 y^2 = x^3 + ax + b
+
 где a и b — это константы, а x и y — переменные. Чтобы кривая не имела сингулярных точек, параметры a и b должны удовлетворять условию:
 4a^3 + 27b^2 != 0
+
 Основные свойства эллиптической кривой
 Структура группы: Точки на эллиптической кривой образуют аддитивную группу, что означает, что можно определять операцию сложения точек. Для двух точек P и Q существует операция сложения P + Q, которая вычисляется.
 
@@ -78,6 +80,7 @@ y^2 = x^3 + ax + b
 j: Функция 𝑗
 j является инвариантом эллиптической кривой, вычисляется по формуле:
 j = 1728 * (4a^3) / (4a^3 + 27b^2)
+
 Эта функция помогает определить, эквивалентна ли данная кривая другой.
 
 Производные: Производные кривой используются для вычислений в математике и криптографии.
