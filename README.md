@@ -1,30 +1,30 @@
 # EllipticCurveTool 
 # A tool for elliptic curve visualization and computation (for python course project of HSE)
 
-1. Структура программы
+1. Структура программы/Program Structure
 Эта программа реализует нормализацию эллиптической кривой и вычисление таких математических параметров, как структура группы, функция j, инварианты и другие характеристики, связанные с эллиптическими кривыми.
 Программа визуализирует эти характеристики с помощью графиков и символических вычислений, а также выполняет вычисления, такие как порядок точки и описание алгебраических свойств кривой.
-2. Используемые библиотеки
+//
+This program implements the normalization of elliptic curves and calculates mathematical parameters related to the elliptic curve, such as group structure, j-function, invariants, and others.
+It visualizes these characteristics through graphical representation and symbolic computation, also performing calculations such as point order and describing the curve's algebraic properties.
+2. Используемые библиотеки/Libraries Used
 SymPy: библиотека Python для символических вычислений и алгебры. Используется для символического решения уравнений и выполнения алгебраических операций.
 Matplotlib: библиотека для создания графиков и визуализации данных. Используется для построения графиков эллиптических кривых.
 NumPy: библиотека для численных вычислений. В основном используется для работы с массивами и матрицами.
-3. Функции программы
-Нормализация эллиптической кривой: преобразует уравнение эллиптической кривой в стандартную форму.
-Вычисление структуры группы: предоставляет порядок группы точек на эллиптической кривой.
-Вычисление функции j: функция j эллиптической кривой описывает её автоморфные свойства.
-///////////////////////////////////////////////////
-
-1 Program Structure
-This program implements the normalization of elliptic curves and calculates mathematical parameters related to the elliptic curve, such as group structure, j-function, invariants, and others.
-It visualizes these characteristics through graphical representation and symbolic computation, also performing calculations such as point order and describing the curve's algebraic properties.
-2 Libraries Used
+//
 SymPy: A Python library for symbolic mathematics and algebra. It is used for symbolic equation solving and performing algebraic operations.
 Matplotlib: A library for creating graphs and visualizing data. It is used to plot elliptic curve graphs.
 NumPy: A library for numerical computations. It is mainly used for working with arrays and matrices.
-3 Program Features
-Normalization of Elliptic Curve: Converts the elliptic curve equation into standard form.
+3. Функции программы/Program Features
+Нормализация эллиптической кривой: преобразует уравнение эллиптической кривой в стандартную форму.
+Вычисление структуры группы: предоставляет порядок группы точек на эллиптической кривой.
+Вычисление функции j: функция j эллиптической кривой описывает её автоморфные свойства.
+//Normalization of Elliptic Curve: Converts the elliptic curve equation into standard form.
 Group Structure Calculation: Provides the order of the group of points on the elliptic curve.
 j-function Calculation: The j-function of the elliptic curve describes its automorphic properties.
+
+
+
 //////////////////////////////////////////////////
 
 Elliptic Curve Tool
