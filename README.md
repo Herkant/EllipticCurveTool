@@ -13,6 +13,7 @@ NumPy: библиотека для численных вычислений. В �
 Вычисление структуры группы: предоставляет порядок группы точек на эллиптической кривой.
 Вычисление функции j: функция j эллиптической кривой описывает её автоморфные свойства.
 ///////////////////////////////////////////////////
+
 1. Program Structure
 This program implements the normalization of elliptic curves and calculates mathematical parameters related to the elliptic curve, such as group structure, j-function, invariants, and others.
 It visualizes these characteristics through graphical representation and symbolic computation, also performing calculations such as point order and describing the curve's algebraic properties.
